@@ -94,7 +94,7 @@ body {
 
 /* svg toggle */
 .btn{
-  background: #777;
+  background-color: #777;
   height: 35px;
   width: 110px;
   overflow: hidden;
@@ -109,7 +109,7 @@ body {
   text-align: center;
   width: 66%;
   height: 100%;
-  background: #009900;
+  background-color: #009900;
   display: block;
   line-height: 35px;
   -webkit-transition: margin 0.2s linear;
@@ -152,6 +152,9 @@ body {
   stroke-dashoffset: 20;
   transition: stroke-dashoffset 0.3s;
   transition-delay: 0s;
+}
+.btn input:checked ~ .indicator{
+  background-color: #009900;
 }
 .btn input:checked ~ .indicator .tick{
   opacity: 1;
